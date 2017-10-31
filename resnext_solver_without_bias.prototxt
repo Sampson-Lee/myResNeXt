@@ -1,0 +1,18 @@
+base_lr: 0.05
+type: "Nesterov"
+display: 100
+gamma: 0.1
+stepvalue:57692
+stepvalue:86538
+iter_size: 1
+lr_policy: "multistep"
+max_iter: 115385
+momentum: 0.9
+snapshot: 5000
+snapshot_prefix: "cifar100_res29_without_bias/"
+test_interval: 500
+test_iter: 400
+test_net: "ResNeXt-29-test_without_bias.prototxt"
+train_net: "ResNeXt-29-train_without_bias.prototxt"
+weight_decay: 0.0005
+solver_mode: GPU 
